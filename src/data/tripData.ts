@@ -84,7 +84,6 @@ export const TRIP_DATA = {
       stageLabel: "Llegada",
       maxAltitude: "466 m",
       location: "Marrakech",
-      meal: "Cena incluida",
       accommodation: "Hotel en Marrakech",
       images: [
         "/images/itinerario/1.webp",
@@ -94,7 +93,6 @@ export const TRIP_DATA = {
         "Recepción personalizada en el aeropuerto de Marrakech",
         "Traslado en minibús privado hacia el hotel seleccionado",
         "Instalación y descanso de bienvenida",
-        "Cena incluida de apertura de expedición"
       ]
     },
     {

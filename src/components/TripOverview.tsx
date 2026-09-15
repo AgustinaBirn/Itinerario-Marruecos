@@ -116,7 +116,7 @@ export const TripOverview: React.FC = () => {
             <div className="w-10 h-10 rounded-xl bg-[#d45e33]/20 border border-[#d45e33]/40 flex items-center justify-center text-[#d45e33] shrink-0">
               <Users className="w-5 h-5" />
             </div>
-            <span><strong className="text-white font-bold">Mulas bereberes</strong> para porteo integral del equipaje pesado</span>
+            <span><strong className="text-white font-bold">Mulas</strong> para porteo integral del equipaje pesado</span>
           </div>
 
           <div className="flex items-center gap-4 px-3 py-2 text-sm sm:text-base md:text-lg text-[#f5f0e8]/95">
