@@ -1,0 +1,8 @@
+{
+  "name": "Atlas & Sahara Expedition",
+  "description": "Programa oficial de 13 días para el ascenso al Monte Toubkal (4.167 m) y travesía por la cordillera del Atlas y el Sahara con Birn Experience.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

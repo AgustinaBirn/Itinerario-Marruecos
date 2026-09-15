@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 540" width="540" height="540">
+  <defs>
+    <!-- Arc for upper text: AVENTURA • SUPERACION • EMOCION -->
+    <path id="arc-upper" d="M 90,270 A 180,180 0 0,1 450,270" fill="none" />
+    <!-- Arc for lower text: EXPERIENCE -->
+    <path id="arc-lower" d="M 110,270 A 160,160 0 0,0 430,270" fill="none" />
+  </defs>
+
+  <!-- Circular Outer Badge Background (generous padding inside viewBox to guarantee zero cropping) -->
+  <circle cx="270" cy="270" r="236" fill="#063e46" stroke="#009ea4" stroke-width="7" />
+  <circle cx="270" cy="270" r="224" fill="none" stroke="#ffffff" stroke-opacity="0.25" stroke-width="1.5" />
+
+  <!-- Top Text: AVENTURA • SUPERACION • EMOCION -->
+  <text fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="17" font-weight="800" letter-spacing="3.2">
+    <textPath href="#arc-upper" startOffset="50%" text-anchor="middle">
+      AVENTURA • SUPERACION • EMOCION
+    </textPath>
+  </text>
+
+  <!-- Center White Banner Container with Rounded Corners (Contained cleanly inside circle) -->
+  <rect x="62" y="196" width="416" height="148" fill="#ffffff" stroke="#009ea4" stroke-width="4.5" rx="8" />
+
+  <!-- BIRN Letters Group scaled and centered -->
+  <g transform="translate(270, 270) scale(0.92) translate(-238, -250)">
+    <!-- Letter B -->
+    <path d="M 50,182 L 112,182 C 138,182 150,194 150,211 C 150,224 142,233 130,237 C 146,242 155,253 155,273 C 155,296 138,318 108,318 L 50,318 Z" fill="#009ea4" />
+    <path d="M 76,200 L 106,200 C 117,200 124,205 124,213 C 124,222 117,227 106,227 L 76,227 Z" fill="#ffffff" />
+    <path d="M 76,245 L 109,245 C 121,245 128,252 128,263 C 128,274 121,281 109,281 L 76,281 Z" fill="#ffffff" />
+    <path d="M 125,236 L 140,246 L 132,248 L 144,258 L 135,260 L 148,272 L 126,272 Z" fill="#75bcba" />
+    <path d="M 126,198 L 137,207 L 130,209 L 140,218 L 133,220 L 142,229 L 124,229 Z" fill="#75bcba" />
+
+    <!-- Letter I (Pine Tree in Sage/Teal) -->
+    <path d="M 162,182 L 188,182 L 188,318 L 162,318 Z" fill="#8cbab7" />
+    <path d="M 162,205 L 152,215 L 162,217 L 150,230 L 162,233 L 146,252 L 162,254 L 162,318 L 188,318 L 188,182 L 175,182 Z" fill="#8cbab7" />
+
+    <!-- Letter R (Peach/Terracotta with Soaring Bird in flight) -->
+    <path d="M 205,182 L 262,182 C 285,182 298,193 298,212 C 298,228 288,238 273,243 L 305,318 L 275,318 L 247,249 L 230,249 L 230,318 L 205,318 Z" fill="#d88c6c" />
+    <path d="M 230,201 L 257,201 C 269,201 274,206 274,215 C 274,224 268,230 257,230 L 230,230 Z" fill="#ffffff" />
+    <path d="M 215,208 C 228,204 242,198 256,192 C 262,190 268,194 266,200 C 262,207 254,213 246,219 C 255,217 268,216 276,218 C 282,219 285,224 278,226 C 268,228 252,229 240,231 C 235,232 230,230 226,226 C 220,221 216,215 215,208 Z" fill="#ffffff" />
+
+    <!-- Letter N (Mountain Terracotta with Snow Capped Peaks) -->
+    <path d="M 326,182 L 351,182 L 401,268 L 401,182 L 426,182 L 426,318 L 401,318 L 351,232 L 351,318 L 326,318 Z" fill="#d45e33" />
+    <polygon points="326,182 351,182 342,198 335,193 326,203" fill="#ffffff" />
+    <polygon points="401,182 426,182 426,208 418,198 411,204 401,192" fill="#ffffff" />
+    <polygon points="368,209 382,209 388,220 376,218" fill="#ffffff" />
+    <!-- Geometric mountain peaks floating on upper right of N -->
+    <polygon points="398,168 410,148 422,168" fill="#d45e33" stroke="#ffffff" stroke-width="2" />
+    <polygon points="410,148 416,158 410,155 404,158" fill="#ffffff" />
+    <polygon points="418,172 428,155 438,172" fill="#d45e33" stroke="#ffffff" stroke-width="2" />
+    <polygon points="428,155 433,163 428,161 423,163" fill="#ffffff" />
+  </g>
+
+  <!-- Bottom Text: EXPERIENCE in Bold Athletic Typography -->
+  <text fill="#ffffff" font-family="'Impact', 'Arial Black', -apple-system, sans-serif" font-size="29" font-weight="900" letter-spacing="6.5">
+    <textPath href="#arc-lower" startOffset="50%" text-anchor="middle">
+      EXPERIENCE
+    </textPath>
+  </text>
+</svg>

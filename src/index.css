@@ -1,0 +1,168 @@
+@import "tailwindcss";
+
+:root {
+  --brand-dark: #022c3b;
+  --brand-dark-surface: #033a4d;
+  --brand-dark-card: rgba(2, 44, 59, 0.75);
+  --brand-orange: #d45e33;
+  --brand-teal: #009ea4;
+  --brand-soft: #95cecf;
+  --brand-peach: #e4a381;
+  --text-main: #f5f0e8;
+}
+
+body {
+  background-color: var(--brand-dark);
+  color: var(--text-main);
+  font-family: 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Typographic Archetypes */
+.font-title {
+  font-family: 'Outfit', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: -0.02em;
+  font-weight: 900;
+}
+
+.font-body {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 400;
+}
+
+.font-accent {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+}
+
+.micro-label {
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--brand-orange);
+  font-size: 0.725rem;
+  font-weight: 700;
+}
+
+.micro-label-teal {
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--brand-teal);
+  font-size: 0.725rem;
+  font-weight: 700;
+}
+
+/* Glass Card System matching Machu Picchu & Nepal */
+.glass-card {
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  background: rgba(2, 44, 59, 0.75);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.35);
+}
+
+.glass-card-hover {
+  transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.glass-card-hover:hover {
+  background: rgba(3, 58, 77, 0.85);
+  border-color: rgba(212, 94, 51, 0.4);
+  transform: translateY(-3px);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.45);
+}
+
+.btn-editorial {
+  background: var(--brand-orange);
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  border-radius: 0.5rem;
+  padding: 0.875rem 2rem;
+  font-size: 0.825rem;
+  font-weight: 800;
+  transition: all 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  box-shadow: 0 2px 6px rgba(212, 94, 51, 0.2);
+}
+
+.btn-editorial:hover {
+  background: #b34d2a;
+  box-shadow: 0 4px 10px rgba(212, 94, 51, 0.25);
+  transform: translateY(-1px);
+}
+
+.btn-outline-teal {
+  background: rgba(0, 158, 164, 0.12);
+  border: 1px solid rgba(0, 158, 164, 0.45);
+  color: var(--brand-soft);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  border-radius: 0.5rem;
+  padding: 0.875rem 2rem;
+  font-size: 0.825rem;
+  font-weight: 800;
+  transition: all 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.btn-outline-teal:hover {
+  background: rgba(0, 158, 164, 0.25);
+  border-color: var(--brand-teal);
+  color: #ffffff;
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+::-webkit-scrollbar-track {
+  background: #022c3b;
+}
+::-webkit-scrollbar-thumb {
+  background: #04485f;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #d45e33;
+}
+
+/* Leaflet custom dark theme integration */
+.leaflet-container {
+  background: #01141c !important;
+  font-family: inherit;
+  z-index: 1;
+}
+.leaflet-control-zoom {
+  border: 1px solid rgba(255, 255, 255, 0.15) !important;
+  border-radius: 8px !important;
+  overflow: hidden;
+}
+.leaflet-control-zoom-in, .leaflet-control-zoom-out {
+  background-color: #022c3b !important;
+  color: #95cecf !important;
+  border-color: rgba(255, 255, 255, 0.1) !important;
+}
+.leaflet-control-zoom-in:hover, .leaflet-control-zoom-out:hover {
+  background-color: #01141c !important;
+  color: #ffffff !important;
+}
+.leaflet-control-attribution {
+  background: rgba(1, 20, 28, 0.8) !important;
+  color: rgba(245, 240, 232, 0.4) !important;
+  font-size: 9px !important;
+}
+.leaflet-control-attribution a {
+  color: #95cecf !important;
+}
+.custom-expedition-marker {
+  background: transparent !important;
+  border: none !important;
+}
