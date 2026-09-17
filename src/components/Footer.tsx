@@ -13,7 +13,7 @@ export const Footer: React.FC<FooterProps> = () => {
 
   const handleWhatsApp = () => {
     const text = encodeURIComponent(
-      "Hola Birn Experience! Deseo consultar información sobre el viaje a Marruecos de 13 días (Toubkal y Sahara, 04 al 16 de Junio)."
+      "Hola Birn Experience! Deseo consultar información sobre el viaje a Marruecos de 13 días (Toubkal y Sahara, 04 al 16 de Junio de 2027)."
     );
     window.open(`https://wa.me/${TRIP_DATA.contact.whatsappNumber}?text=${text}`, '_blank');
   };
@@ -25,7 +25,7 @@ export const Footer: React.FC<FooterProps> = () => {
       <div className="border-b border-white/10 py-16 px-4 sm:px-6 lg:px-8 text-center bg-gradient-to-b from-[#022c3b]/60 to-transparent">
         <div className="max-w-4xl mx-auto flex flex-col items-center">
           <span className="micro-label mb-2 block">
-            04 AL 16 DE JUNIO 2026 · GRUPOS REDUCIDOS
+            04 AL 16 DE JUNIO 2027 · GRUPOS REDUCIDOS
           </span>
           <h2 className="font-display text-3xl sm:text-4xl md:text-5xl text-white font-black uppercase tracking-tight mb-4">
             <span className="hidden sm:inline">¿Listo para ascender el Toubkal y cruzar el Sahara?</span>
@@ -193,7 +193,7 @@ export const Footer: React.FC<FooterProps> = () => {
         <div className="mt-14 pt-6 border-t border-white/5 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs sm:text-sm text-[#8299a3]">
           <div className="flex items-center gap-2">
             <ShieldCheck className="w-4 h-4 text-[#d45e33]" />
-            <span>© 2026 Birn Experience · Expedición Marruecos Toubkal & Sahara.</span>
+            <span>© 2027 Birn Experience · Expedición Marruecos Toubkal & Sahara.</span>
           </div>
           <button
             onClick={scrollToTop}

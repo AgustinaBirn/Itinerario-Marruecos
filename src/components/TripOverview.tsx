@@ -7,7 +7,7 @@ export const TripOverview: React.FC = () => {
       num: "13",
       unit: "DÍAS",
       label: "Expedición completa",
-      sub: "04 al 16 de Junio 2025",
+      sub: "04 al 16 de Junio 2027",
       accent: "#d45e33"
     },
     {

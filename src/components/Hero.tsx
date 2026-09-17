@@ -10,7 +10,7 @@ interface HeroProps {
 export const Hero: React.FC<HeroProps> = ({ onScrollToItinerary }) => {
   const handleReserveWhatsApp = () => {
     const text = encodeURIComponent(
-      "Hola Birn Experience, deseo reservar mi lugar para la expedición a Marruecos de 13 días (Toubkal y Sahara, 04 al 16 de Junio)."
+      "Hola Birn Experience, deseo reservar mi lugar para la expedición a Marruecos de 13 días (Toubkal y Sahara, 04 al 16 de Junio de 2027)."
     );
     window.open(`https://wa.me/${TRIP_DATA.contact.whatsappNumber}?text=${text}`, '_blank');
   };
@@ -104,7 +104,7 @@ export const Hero: React.FC<HeroProps> = ({ onScrollToItinerary }) => {
         {/* Date and Price Banner */}
         <div className="w-full border-t border-[#d45e33]/30 pt-5 sm:pt-6 mt-1 sm:mt-2">
           <div className="font-title text-sm sm:text-base md:text-lg text-[#e4a381] tracking-[2px] uppercase flex items-center justify-center gap-2 sm:gap-4 font-bold text-center">
-            <span>✦ DEL 04 AL 16 DE JUNIO</span>
+            <span>✦ DEL 04 AL 16 DE JUNIO 2027</span>
             <span className="text-[#009ea4]">·</span>
             <span className="text-[#d45e33] font-black">USD 2.090 POR PERSONA ✦</span>
           </div>

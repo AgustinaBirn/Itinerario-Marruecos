@@ -9,7 +9,7 @@ interface PricingSectionProps {
 export const PricingSection: React.FC<PricingSectionProps> = () => {
   const handleWhatsApp = () => {
     const text = encodeURIComponent(
-      "Hola Birn Experience, deseo reservar mi lugar para el viaje a Marruecos de 13 días (Toubkal 4.167 m y Sahara, 04 al 16 de Junio - Precio: 2.090 USD)."
+      "Hola Birn Experience, deseo reservar mi lugar para el viaje a Marruecos de 13 días (Toubkal 4.167 m y Sahara, 04 al 16 de Junio de 2027 - Precio: 2.090 USD)."
     );
     window.open(`https://wa.me/${TRIP_DATA.contact.whatsappNumber}?text=${text}`, '_blank');
   };
@@ -41,11 +41,11 @@ export const PricingSection: React.FC<PricingSectionProps> = () => {
             USD 2.090
           </div>
           <p className="text-sm sm:text-base text-[#95cecf] font-medium tracking-wider mt-3 uppercase text-balance">
-            <span className="hidden sm:inline">Tarifa oficial por persona · Cupos reducidos · 04 al 16 de Junio</span>
+            <span className="hidden sm:inline">Tarifa oficial por persona · Cupos reducidos · 04 al 16 de Junio de 2027</span>
             <span className="inline sm:hidden">
               Tarifa oficial por persona ·
               <br />
-              Cupos reducidos · 04 al 16 de Junio
+              Cupos reducidos · 04 al 16 de Junio de 2027
             </span>
           </p>
         </div>

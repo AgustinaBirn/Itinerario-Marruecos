@@ -51,7 +51,7 @@ export const TRIP_DATA = {
   },
 
   stats: [
-    { value: "13", label: "Días de Travesía", sublabel: "04 al 16 de Junio", iconName: "calendar" },
+    { value: "13", label: "Días de Travesía", sublabel: "04 al 16 de Junio 2027", iconName: "calendar" },
     { value: "5", label: "Días de Trekking", sublabel: "Armed y Macizo Toubkal", iconName: "mountain" },
     { value: "4.167", label: "M Cumbre Toubkal", sublabel: "Techo del Norte de África", iconName: "flag" },
     { value: "8", label: "Días Desierto y Turismo", sublabel: "Sahara y Marrakech", iconName: "tent" },

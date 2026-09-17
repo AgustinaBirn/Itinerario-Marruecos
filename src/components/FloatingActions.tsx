@@ -19,7 +19,7 @@ export const FloatingActions: React.FC<FloatingActionsProps> = () => {
 
   const handleWhatsApp = () => {
     const text = encodeURIComponent(
-      "Hola Birn Experience! Quiero consultar disponibilidad y ficha técnica para el viaje a Marruecos de 13 días (Toubkal y Sahara, 04 al 16 de Junio)."
+      "Hola Birn Experience! Quiero consultar disponibilidad y ficha técnica para el viaje a Marruecos de 13 días (Toubkal y Sahara, 04 al 16 de Junio de 2027)."
     );
     window.open(`https://wa.me/${TRIP_DATA.contact.whatsappNumber}?text=${text}`, '_blank');
   };
